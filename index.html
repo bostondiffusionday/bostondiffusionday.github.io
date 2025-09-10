@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boston Diffusion Day</title>
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <!-- Simple Tailwind v2 (CSS-only) -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+
+    <!-- Apply Inter to the site -->
+    <style>
+      body { font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'; }
+    </style>
+
+    <meta name="description" content="Boston Diffusion Day — a one‑day gathering for researchers and practitioners working on diffusion models and generative modeling in the Boston area."/>
+  </head>
+
+  <!-- Light blue background across the site -->
+  <body class="bg-blue-50 text-gray-900">
+    <!-- Header / Hero -->
+    <header class="bg-blue-200 text-black border-b border-blue-300">
+      <div class="max-w-6xl mx-auto px-6 py-12">
+        <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+          Boston Diffusion Day
+        </h1>
+        <p class="mt-3 text-lg opacity-90">
+          A one‑day gathering on diffusion models, theory, and applications — talks, posters, and community building in Boston.
+        </p>
+        <div class="mt-4 text-sm text-gray-800 space-y-1">
+          <!-- If details change, update here -->
+          <p><span class="font-semibold">Date:</span> Friday, October 17, 2025</p>
+          <p><span class="font-semibold">Venue:</span> Winokur Family Hall & West Atrium (Harvard SEAS, Allston)</p>
+        </div>
+        <nav class="mt-6 flex flex-wrap gap-3">
+          <a href="#about"        class="inline-block bg-white border border-gray-200 text-gray-700 hover:bg-gray-50 px-4 py-2 rounded-xl text-sm">About</a>
+          <a href="#schedule"     class="inline-block bg-white border border-gray-200 text-gray-700 hover:bg-gray-50 px-4 py-2 rounded-xl text-sm">Schedule</a>
+          <a href="#speakers"     class="inline-block bg-white border border-gray-200 text-gray-700 hover:bg-gray-50 px-4 py-2 rounded-xl text-sm">Speakers</a>
+          <a href="#posters"      class="inline-block bg-white border border-gray-200 text-gray-700 hover:bg-gray-50 px-4 py-2 rounded-xl text-sm">Posters</a>
+          <a href="#venue"        class="inline-block bg-white border border-gray-200 text-gray-700 hover:bg-gray-50 px-4 py-2 rounded-xl text-sm">Venue</a>
+          <a href="#contact"      class="inline-block bg-white border border-gray-200 text-gray-700 hover:bg-gray-50 px-4 py-2 rounded-xl text-sm">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-10">
+      <!-- About / Description -->
+      <section id="about" class="mb-10">
+        <div class="bg-white rounded-2xl shadow p-6 sm:p-8">
+          <h2 class="text-2xl font-semibold">About</h2>
+          <p class="mt-3 text-gray-700">
+            Boston Diffusion Day is a community workshop focused on <span class="font-semibold">diffusion models and modern generative modeling</span>, bringing together researchers in 
+            machine learning, statistics, neuroscience, vision, and adjacent fields. The day features a mix of invited and contributed talks, a poster session, and ample time for discussion.
+            Our goals are to <span class="font-semibold">share recent results</span>, highlight open problems, and <span class="font-semibold">build collaboration</span> across Boston‑area groups.
+          </p>
+          <ul class="mt-4 text-gray-700 list-disc pl-5 space-y-1">
+            <li>Topics include: score‑based diffusion, theory & generalization, scaling laws, architectures (CNN/DiT/attention), evaluation, safety, and applications.</li>
+            <li>All levels welcome — from students to faculty and industry researchers.</li>
+            <li>Attendance is free; space may be limited. Registration required.</li>
+          </ul>
+          <div class="mt-5 flex flex-wrap gap-3">
+            <a href="#register" class="inline-flex items-center px-4 py-2 rounded-xl bg-blue-600 text-white font-medium hover:bg-blue-700">Register</a>
+            <a href="#cfp" class="inline-flex items-center px-4 py-2 rounded-xl bg-white border border-blue-300 text-blue-700 font-medium hover:bg-blue-50">Call for Posters</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Call for Participation (Posters) -->
+      <section id="cfp" class="mb-10">
+        <div class="bg-white rounded-2xl shadow p-6 sm:p-8">
+          <h2 class="text-2xl font-semibold">Call for Posters</h2>
+          <p class="mt-3 text-gray-700">
+            We invite poster submissions on diffusion models and related topics. One‑page extended abstracts (PDF) are encouraged; previously published work is welcome. A limited number of lightning talks will be selected from posters.
+          </p>
+          <ul class="mt-3 text-gray-700 list-disc pl-5 space-y-1">
+            <li><span class="font-semibold">Submission deadline:</span> <span class="italic">TBA</span></li>
+            <li><span class="font-semibold">Notification:</span> <span class="italic">TBA</span></li>
+            <li><span class="font-semibold">Format:</span> 1‑page PDF (extended abstract) + poster title/authors/affiliations.</li>
+          </ul>
+          <div class="mt-5 flex flex-wrap gap-3">
+            <a href="#" class="inline-flex items-center px-4 py-2 rounded-xl bg-blue-600 text-white font-medium hover:bg-blue-700">Submit poster (link TBA)</a>
+            <a href="#posters" class="inline-flex items-center px-4 py-2 rounded-xl bg-white border border-blue-300 text-blue-700 font-medium hover:bg-blue-50">Poster session info</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Schedule -->
+      <section id="schedule" class="mb-14">
+        <div class="mb-6">
+          <div class="flex items-end justify-between gap-4 mb-2">
+            <h2 class="text-2xl sm:text-3xl font-bold">Schedule (tentative)</h2>
+            <span class="text-sm text-gray-500">Subject to change</span>
+          </div>
+        </div>
+        <div class="rounded-2xl p-3 bg-blue-100 border border-blue-200">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Block 1 -->
+            <article class="bg-white rounded-2xl shadow p-6">
+              <div class="flex items-center justify-between">
+                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-gray-200 text-gray-900">09:00–12:00</span>
+              </div>
+              <h3 class="mt-4 text-lg font-semibold">Morning Talks</h3>
+              <p class="mt-2 text-sm text-gray-700">Opening remarks, invited talks, and contributed talks.</p>
+              <div class="mt-4 pt-4 border-t"><span class="inline-flex px-3 py-2 rounded-lg text-sm bg-gray-100 text-gray-600">Speakers TBA</span></div>
+            </article>
+            <!-- Block 2 -->
+            <article class="bg-white rounded-2xl shadow p-6">
+              <div class="flex items-center justify-between">
+                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-gray-200 text-gray-900">12:00–14:00</span>
+              </div>
+              <h3 class="mt-4 text-lg font-semibold">Posters & Lunch</h3>
+              <p class="mt-2 text-sm text-gray-700">Poster session in the West Atrium with catered lunch.</p>
+              <div class="mt-4 pt-4 border-t"><span class="inline-flex px-3 py-2 rounded-lg text-sm bg-gray-100 text-gray-600">Poster list TBA</span></div>
+            </article>
+            <!-- Block 3 -->
+            <article class="bg-white rounded-2xl shadow p-6">
+              <div class="flex items-center justify-between">
+                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-gray-200 text-gray-900">14:00–17:30</span>
+              </div>
+              <h3 class="mt-4 text-lg font-semibold">Afternoon Talks & Panel</h3>
+              <p class="mt-2 text-sm text-gray-700">Contributed talks, industry perspectives, and a closing panel on open problems.</p>
+              <div class="mt-4 pt-4 border-t"><span class="inline-flex px-3 py-2 rounded-lg text-sm bg-gray-100 text-gray-600">Panelists TBA</span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Speakers (placeholder cards you can duplicate) -->
+      <section id="speakers" class="mb-14">
+        <div class="mb-6">
+          <div class="flex items-end justify-between gap-4 mb-2">
+            <h2 class="text-2xl sm:text-3xl font-bold">Speakers</h2>
+            <span class="text-sm text-gray-500">More announced soon</span>
+          </div>
+        </div>
+        <div class="rounded-2xl p-3 bg-blue-100 border border-blue-200">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <article class="bg-white rounded-2xl shadow p-6">
+              <div class="flex items-center justify-between">
+                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-gray-200 text-gray-900">Invited</span>
+              </div>
+              <h3 class="mt-4 text-lg font-semibold">TBA</h3>
+              <p class="mt-2 text-sm text-gray-700">Title TBA</p>
+              <div class="mt-4 pt-4 border-t"><span class="inline-flex px-3 py-2 rounded-lg text-sm bg-gray-100 text-gray-600">Abstract coming soon</span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Posters info -->
+      <section id="posters" class="mb-14">
+        <div class="bg-white rounded-2xl shadow p-6 sm:p-8">
+          <h2 class="text-2xl font-semibold">Poster Session</h2>
+          <p class="mt-3 text-gray-700">Printed posters preferred (portrait A0/A1 or 36"×48"). Easels/boards will be provided. Lightning talk selections will be notified ahead of time.</p>
+          <ul class="mt-3 text-gray-700 list-disc pl-5 space-y-1">
+            <li>Setup: 11:30–12:00</li>
+            <li>Session: 12:00–14:00</li>
+            <li>Teardown: 14:00–14:20</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Venue / Directions -->
+      <section id="venue" class="mb-14">
+        <div class="bg-white rounded-2xl shadow p-6 sm:p-8">
+          <h2 class="text-2xl font-semibold">Venue</h2>
+          <p class="mt-3 text-gray-700">Winokur Family Hall & West Atrium, Science & Engineering Complex (SEC), 150 Western Ave, Allston, MA.</p>
+          <p class="mt-2 text-gray-700">Public transit: MBTA bus routes and Harvard shuttle stop nearby. Limited paid parking available in the garage.</p>
+          <div class="mt-4 flex flex-wrap gap-3">
+            <a href="#" class="inline-flex items-center px-4 py-2 rounded-xl bg-white border border-blue-300 text-blue-700 font-medium hover:bg-blue-50">Campus map (link TBA)</a>
+            <a href="#" class="inline-flex items-center px-4 py-2 rounded-xl bg-white border border-blue-300 text-blue-700 font-medium hover:bg-blue-50">Visitor info (link TBA)</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Registration -->
+      <section id="register" class="mb-20">
+        <div class="bg-blue-50 rounded-2xl border border-blue-200 p-6 sm:p-8">
+          <h3 class="text-xl font-semibold text-blue-900">Register to attend</h3>
+          <p class="mt-2 text-blue-900 opacity-80">Registration is free but required. We’ll email final details and reminders.</p>
+          <div class="mt-4 flex flex-wrap gap-3">
+            <a href="#" class="inline-flex items-center px-4 py-2 rounded-xl bg-blue-600 text-white font-medium hover:bg-blue-700">Open registration form (TBA)</a>
+            <a href="mailto:efinn@college.harvard.edu?subject=Boston%20Diffusion%20Day%20Inquiry" class="inline-flex items-center px-4 py-2 rounded-xl bg-white border border-blue-300 text-blue-700 font-medium hover:bg-blue-50">Email organizers</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="max-w-6xl mx-auto px-6 pb-10 text-sm text-gray-500">
+      <p>&copy; <span id="year"></span> Boston Diffusion Day. Built with GitHub Pages.</p>
+    </footer>
+
+    <script>
+      // tiny helper to keep the year current
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
