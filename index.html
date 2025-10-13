@@ -15,6 +15,8 @@
 
     <style>
       body { font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'; }
+      /* optional utility to keep logo cards tidy */
+      .logo-wrap img { object-fit: contain; }
     </style>
 
     <meta name="description" content="Boston Diffusion Day — a one-day gathering for researchers and practitioners working on diffusion models and generative modeling in the Boston area."/>
@@ -45,6 +47,7 @@
           <a href="#schedule"     class="inline-block bg-white border border-gray-200 text-gray-700 hover:bg-gray-50 px-4 py-2 rounded-xl text-sm">Schedule</a>
           <a href="#speakers"     class="inline-block bg-white border border-gray-200 text-gray-700 hover:bg-gray-50 px-4 py-2 rounded-xl text-sm">Speakers</a>
           <a href="#posters"      class="inline-block bg-white border border-gray-200 text-gray-700 hover:bg-gray-50 px-4 py-2 rounded-xl text-sm">Posters</a>
+          <a href="#sponsors"     class="inline-block bg-white border border-gray-200 text-gray-700 hover:bg-gray-50 px-4 py-2 rounded-xl text-sm">Sponsors</a>
           <a href="#venue"        class="inline-block bg-white border border-gray-200 text-gray-700 hover:bg-gray-50 px-4 py-2 rounded-xl text-sm">Venue</a>
           <a href="#contact"      class="inline-block bg-white border border-gray-200 text-gray-700 hover:bg-gray-50 px-4 py-2 rounded-xl text-sm">Contact</a>
         </nav>
@@ -74,7 +77,7 @@
         </div>
       </section>
 
-      <!-- NEW: Schedule immediately after About -->
+      <!-- Schedule -->
       <section id="schedule" class="mb-12">
         <div class="bg-white rounded-2xl shadow overflow-hidden">
           <div class="px-6 py-5 border-b border-gray-200 flex items-end justify-between">
@@ -89,7 +92,7 @@
             <div class="col-span-4 sm:col-span-6">Description</div>
           </div>
 
-          <!-- Rows (edit freely) -->
+          <!-- Rows -->
           <div class="divide-y divide-gray-200 text-sm">
             <div class="grid grid-cols-12 px-6 py-4 hover:bg-blue-50">
               <div class="col-span-4 sm:col-span-3 font-medium">9:00 – 9:50</div>
@@ -108,7 +111,7 @@
             </div>
             <div class="grid grid-cols-12 px-6 py-4 hover:bg-blue-50">
               <div class="col-span-4 sm:col-span-3 font-medium">11:00 – 11:25</div>
-              <div class="col-span-4 sm:col-span-3"> Michael Albergo </div>
+              <div class="col-span-4 sm:col-span-3">Michael Albergo</div>
               <div class="col-span-4 sm:col-span-6">Invited Talk</div>
             </div>
             <div class="grid grid-cols-12 px-6 py-4 hover:bg-blue-50">
@@ -119,7 +122,7 @@
             <div class="grid grid-cols-12 px-6 py-4 hover:bg-blue-50">
               <div class="col-span-4 sm:col-span-3 font-medium">12:00 – 12:50</div>
               <div class="col-span-4 sm:col-span-3">Lunch</div>
-              <div class="col-span-4 sm:col-span-6"> </div>
+              <div class="col-span-4 sm:col-span-6"></div>
             </div>
             <div class="grid grid-cols-12 px-6 py-4 hover:bg-blue-50">
               <div class="col-span-4 sm:col-span-3 font-medium">1:00 – 1:25</div>
@@ -132,18 +135,18 @@
               <div class="col-span-4 sm:col-span-6">Invited Talk</div>
             </div>
             <div class="grid grid-cols-12 px-6 py-4 hover:bg-blue-50">
-              <div class="col-span-4 sm:col-span-3 font-medium">2:00 – 3:30 </div>
-              <div class="col-span-4 sm:col-span-3"> Diffusion Discussion with IAIFI</div>
-              <div class="col-span-4 sm:col-span-6"> 3 Lightning Talks from IAFI Fellows</div>
+              <div class="col-span-4 sm:col-span-3 font-medium">2:00 – 3:30</div>
+              <div class="col-span-4 sm:col-span-3">Diffusion Discussion with IAIFI</div>
+              <div class="col-span-4 sm:col-span-6">3 Lightning Talks from IAIFI Fellows</div>
             </div>
             <div class="grid grid-cols-12 px-6 py-4 hover:bg-blue-50">
               <div class="col-span-4 sm:col-span-3 font-medium">3:30 – 4:00</div>
-              <div class="col-span-4 sm:col-span-3">Poster Session 1 </div>
+              <div class="col-span-4 sm:col-span-3">Poster Session 1</div>
               <div class="col-span-4 sm:col-span-6"></div>
             </div>
             <div class="grid grid-cols-12 px-6 py-4 hover:bg-blue-50">
               <div class="col-span-4 sm:col-span-3 font-medium">4:00 – 4:30</div>
-              <div class="col-span-4 sm:col-span-3">Poster Session 2 </div>
+              <div class="col-span-4 sm:col-span-3">Poster Session 2</div>
               <div class="col-span-4 sm:col-span-6"></div>
             </div>
             <div class="grid grid-cols-12 px-6 py-4 hover:bg-blue-50">
@@ -155,8 +158,7 @@
         </div>
       </section>
 
-      <!-- (rest of your sections are unchanged; keeping your CFP, Speakers, Posters, Venue, Register, etc.) -->
-
+      <!-- CFP -->
       <section id="cfp" class="mb-10">
         <div class="bg-white rounded-2xl shadow p-6 sm:p-8">
           <h2 class="text-2xl font-semibold">Call for Posters</h2>
@@ -165,8 +167,8 @@
           </p>
           <ul class="mt-3 text-gray-700 list-disc pl-5 space-y-1">
             <li><span class="font-semibold">Submission deadline:</span> <span class="italic">Thursday, October 9th @ 12:59 PM EST</span></li>
-            <li><span class="font-semibold">Notification:</span> <span class="italic">Friday, October 10th </span></li>
-            <li><span class="font-semibold">Format:</span>  Poster title/authors/affiliations and short summary. </li>
+            <li><span class="font-semibold">Notification:</span> <span class="italic">Friday, October 10th</span></li>
+            <li><span class="font-semibold">Format:</span> Poster title/authors/affiliations and short summary.</li>
           </ul>
           <div class="mt-5 flex flex-wrap gap-3">
             <a href="https://forms.gle/YzDh2LFCHHGzbtXR9" class="inline-flex items-center px-4 py-2 rounded-xl bg-blue-600 text-white font-medium hover:bg-blue-700">Submit poster here</a>
@@ -175,6 +177,7 @@
         </div>
       </section>
 
+      <!-- SPEAKERS (updated to include everyone on flyer) -->
       <section id="speakers" class="mb-14">
         <div class="mb-6">
           <div class="flex items-end justify-between gap-4 mb-2">
@@ -182,34 +185,203 @@
             <span class="text-sm text-gray-500">More announced soon</span>
           </div>
         </div>
+
         <div class="rounded-2xl p-3 bg-blue-100 border border-blue-200">
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <!-- Yilun Du -->
             <article class="bg-white rounded-2xl shadow p-6">
               <div class="flex items-center justify-between">
                 <span class="px-3 py-1 rounded-full text-xs font-semibold bg-gray-200 text-gray-900">Invited</span>
               </div>
-              <h3 class="mt-4 text-lg font-semibold">TBA</h3>
-              <p class="mt-2 text-sm text-gray-700">Title TBA</p>
-              <div class="mt-4 pt-4 border-t">
-                <span class="inline-flex px-3 py-2 rounded-lg text-sm bg-gray-100 text-gray-600">Abstract coming soon</span>
+              <div class="mt-4 flex items-center gap-4">
+                <!-- Add headshot -->
+                <div class="h-16 w-16 rounded-full bg-gray-200 overflow-hidden">
+                  <!-- <img src="headshots/yilun-du.jpg" alt="Headshot of Yilun Du" class="h-full w-full object-cover" loading="lazy"> -->
+                </div>
+                <div>
+                  <h3 class="text-lg font-semibold">Yilun Du</h3>
+                  <p class="text-sm text-gray-700">Assistant Professor of Computer Science, Harvard University; Kempner Institute Investigator</p>
+                </div>
               </div>
             </article>
+
+            <!-- Michael Albergo -->
+            <article class="bg-white rounded-2xl shadow p-6">
+              <div class="flex items-center justify-between">
+                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-gray-200 text-gray-900">Invited</span>
+              </div>
+              <div class="mt-4 flex items-center gap-4">
+                <!-- Add headshot -->
+                <div class="h-16 w-16 rounded-full bg-gray-200 overflow-hidden">
+                  <!-- <img src="headshots/michael-albergo.jpg" alt="Headshot of Michael Albergo" class="h-full w-full object-cover" loading="lazy"> -->
+                </div>
+                <div>
+                  <h3 class="text-lg font-semibold">Michael Albergo</h3>
+                  <p class="text-sm text-gray-700">Incoming Institute Investigator, Kempner Institute</p>
+                </div>
+              </div>
+            </article>
+
+            <!-- Binxu Wang -->
+            <article class="bg-white rounded-2xl shadow p-6">
+              <div class="flex items-center justify-between">
+                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-gray-200 text-gray-900">Invited</span>
+              </div>
+              <div class="mt-4 flex items-center gap-4">
+                <!-- Add headshot -->
+                <div class="h-16 w-16 rounded-full bg-gray-200 overflow-hidden">
+                  <!-- <img src="headshots/binxu-wang.jpg" alt="Headshot of Binxu Wang" class="h-full w-full object-cover" loading="lazy"> -->
+                </div>
+                <div>
+                  <h3 class="text-lg font-semibold">Binxu Wang</h3>
+                  <p class="text-sm text-gray-700">Research Fellow, Kempner Institute</p>
+                </div>
+              </div>
+            </article>
+
+            <!-- Nic Fishman -->
+            <article class="bg-white rounded-2xl shadow p-6">
+              <div class="flex items-center justify-between">
+                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-gray-200 text-gray-900">Invited</span>
+              </div>
+              <div class="mt-4 flex items-center gap-4">
+                <!-- Add headshot -->
+                <div class="h-16 w-16 rounded-full bg-gray-200 overflow-hidden">
+                  <!-- <img src="headshots/nic-fishman.jpg" alt="Headshot of Nic Fishman" class="h-full w-full object-cover" loading="lazy"> -->
+                </div>
+                <div>
+                  <h3 class="text-lg font-semibold">Nic Fishman</h3>
+                  <p class="text-sm text-gray-700">PhD Student in Statistics, Harvard University</p>
+                </div>
+              </div>
+            </article>
+
+            <!-- Jaeyeon Kim -->
+            <article class="bg-white rounded-2xl shadow p-6">
+              <div class="flex items-center justify-between">
+                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-gray-200 text-gray-900">Invited</span>
+              </div>
+              <div class="mt-4 flex items-center gap-4">
+                <!-- Add headshot -->
+                <div class="h-16 w-16 rounded-full bg-gray-200 overflow-hidden">
+                  <!-- <img src="headshots/jaeyeon-kim.jpg" alt="Headshot of Jaeyeon Kim" class="h-full w-full object-cover" loading="lazy"> -->
+                </div>
+                <div>
+                  <h3 class="text-lg font-semibold">Jaeyeon Kim</h3>
+                  <p class="text-sm text-gray-700">PhD Student in Computer Science, Harvard University</p>
+                </div>
+              </div>
+            </article>
+
+            <!-- Berthy Feng -->
+            <article class="bg-white rounded-2xl shadow p-6">
+              <div class="flex items-center justify-between">
+                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-gray-200 text-gray-900">Invited</span>
+              </div>
+              <div class="mt-4 flex items-center gap-4">
+                <!-- Add headshot -->
+                <div class="h-16 w-16 rounded-full bg-gray-200 overflow-hidden">
+                  <!-- <img src="headshots/berthy-feng.jpg" alt="Headshot of Berthy Feng" class="h-full w-full object-cover" loading="lazy"> -->
+                </div>
+                <div>
+                  <h3 class="text-lg font-semibold">Berthy Feng</h3>
+                  <p class="text-sm text-gray-700">IAIFI Fellow and Postdoctoral Fellow, MIT</p>
+                </div>
+              </div>
+            </article>
+
+            <!-- Gokul Gowri -->
+            <article class="bg-white rounded-2xl shadow p-6">
+              <div class="flex items-center justify-between">
+                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-gray-200 text-gray-900">Invited</span>
+              </div>
+              <div class="mt-4 flex items-center gap-4">
+                <!-- Add headshot -->
+                <div class="h-16 w-16 rounded-full bg-gray-200 overflow-hidden">
+                  <!-- <img src="headshots/gokul-gowri.jpg" alt="Headshot of Gokul Gowri" class="h-full w-full object-cover" loading="lazy"> -->
+                </div>
+                <div>
+                  <h3 class="text-lg font-semibold">Gokul Gowri</h3>
+                  <p class="text-sm text-gray-700">Postdoctoral Tayebati Fellow, MIT</p>
+                </div>
+              </div>
+            </article>
+
+            <!-- Poster Presenters -->
+            <article class="bg-white rounded-2xl shadow p-6">
+              <div class="flex items-center justify-between">
+                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-purple-100 text-purple-900">Contributed</span>
+              </div>
+              <div class="mt-4">
+                <h3 class="text-lg font-semibold">Poster Presenters</h3>
+                <p class="mt-1 text-sm text-gray-700">Various researchers from the Boston area</p>
+              </div>
+            </article>
+
           </div>
         </div>
       </section>
 
+      <!-- POSTERS -->
       <section id="posters" class="mb-14">
         <div class="bg-white rounded-2xl shadow p-6 sm:p-8">
           <h2 class="text-2xl font-semibold">Poster Session</h2>
           <p class="mt-3 text-gray-700">Printed posters preferred (portrait A0/A1 or 36&quot;×48&quot;). Easels/boards will be provided.</p>
           <ul class="mt-3 text-gray-700 list-disc pl-5 space-y-1">
-            <li>Setup: 3:15-3:30 </li>
+            <li>Setup: 3:15–3:30</li>
             <li>Session: 3:30–4:30</li>
             <li>Teardown: 4:30–5:00</li>
           </ul>
         </div>
       </section>
 
+      <!-- SPONSORS -->
+      <section id="sponsors" class="mb-14">
+        <div class="mb-6">
+          <div class="flex items-end justify-between gap-4 mb-2">
+            <h2 class="text-2xl sm:text-3xl font-bold">Sponsors</h2>
+            <span class="text-sm text-gray-500">Thank you for your support</span>
+          </div>
+        </div>
+
+        <div class="rounded-2xl p-3 bg-blue-100 border border-blue-200">
+          <!-- Replace/duplicate cards as needed; drop logo images into the <img> tags -->
+          <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+            <!-- Example logo card -->
+            <figure class="bg-white rounded-2xl shadow p-4 flex flex-col items-center justify-center logo-wrap" style="min-height: 120px;">
+              <!-- Add logo image -->
+              <!-- <img src="./IAIFI-Logo_black.png" alt="IAFAI logo" class="h-16 w-full" loading="lazy"> -->
+              <div class="h-16 w-full bg-gray-100 rounded-md"></div>
+              <figcaption class="mt-3 text-sm text-gray-700 text-center">NSF IAFAI</figcaption>
+            </figure>
+
+            <figure class="bg-white rounded-2xl shadow p-4 flex flex-col items-center justify-center logo-wrap" style="min-height: 120px;">
+              <!-- <img src="./Kempner_Harvard.png" alt="Kempner Logo" class="h-16 w-full" loading="lazy"> -->
+              <div class="h-16 w-full bg-gray-100 rounded-md"></div>
+              <figcaption class="mt-3 text-sm text-gray-700 text-center">Kempner Institute for Study of Natural and Artificial Intelligence at Harvard University </figcaption>
+            </figure>
+
+
+            <figure class="bg-white rounded-2xl shadow p-4 flex flex-col items-center justify-center logo-wrap" style="min-height: 120px;">
+              <!-- <img src="./MIx_LOGO_BLK.png" alt="Mission Innovation X logo" class="h-16 w-full" loading="lazy"> -->
+              <div class="h-16 w-full bg-gray-100 rounded-md"></div>
+              <figcaption class="mt-3 text-sm text-gray-700 text-center">Mission Innovation X (MIx)</figcaption>
+            </figure>
+
+            <figure class="bg-white rounded-2xl shadow p-4 flex flex-col items-center justify-center logo-wrap" style="min-height: 120px;">
+              <!-- <img src="./Y_Combinator_logo.svg.png" alt="YC" class="h-16 w-full" loading="lazy"> -->
+              <div class="h-16 w-full bg-gray-100 rounded-md"></div>
+              <figcaption class="mt-3 text-sm text-gray-700 text-center">Y Combinator</figcaption>
+            </figure>
+          </div>
+
+          <!-- Optional note -->
+          <p class="text-xs text-gray-600 mt-4">Want to sponsor? <a class="underline text-blue-700" href="mailto:bostondiffusionday@gmail.com">Contact the organizers</a>.</p>
+        </div>
+      </section>
+
+      <!-- VENUE -->
       <section id="venue" class="mb-14">
         <div class="bg-white rounded-2xl shadow p-6 sm:p-8">
           <h2 class="text-2xl font-semibold">Venue</h2>
@@ -222,12 +394,13 @@
         </div>
       </section>
 
+      <!-- REGISTER -->
       <section id="register" class="mb-20">
         <div class="bg-blue-50 rounded-2xl border border-blue-200 p-6 sm:p-8">
           <h3 class="text-xl font-semibold text-blue-900">Register to attend</h3>
           <p class="mt-2 text-blue-900 opacity-80">Registration is free but required. We’ll email final details and reminders.</p>
           <div class="mt-4 flex flex-wrap gap-3">
-            <a href="https://forms.gle/YzDh2LFCHHGzbtXR9" class="inline-flex items-center px-4 py-2 rounded-xl bg-blue-600 text-white font-medium hover:bg-blue-700">Open registration form! </a>
+            <a href="https://forms.gle/YzDh2LFCHHGzbtXR9" class="inline-flex items-center px-4 py-2 rounded-xl bg-blue-600 text-white font-medium hover:bg-blue-700">Open registration form!</a>
             <a href="mailto:bostondiffusionday@gmail.com?subject=Boston%20Diffusion%20Day%20Inquiry" class="inline-flex items-center px-4 py-2 rounded-xl bg-white border border-blue-300 text-blue-700 font-medium hover:bg-blue-50">Email organizers</a>
           </div>
         </div>
